@@ -1,0 +1,53 @@
+<table border="1px">
+  <caption>表3 过电流保护特性</caption>
+  <thead align="center" valign="center">
+    <tr>
+      <th colspan="2">脱扣器类型</th>
+      <th>B型(li=4In)</th>
+      <th>C型(li=8In)</th>
+      <th>D型(li=12In)</th>
+      <th>起始状态</th>
+      <th>脱扣时间</th>
+      <th>预期结果</th>
+    </tr>
+  </thead>
+  <tbody align="center" valign="center">
+    <tr>
+      <td rowspan="2">热脱扣</td>
+      <td>I<sub>1</sub></td>
+      <td colspan="3">1.05In</td>
+      <td>冷态</td>
+      <td>t≤1h（In≤63A）<br/>t≤2h（In＞63A）</td>
+      <td>不脱扣</td>
+    </tr>
+    <tr>
+      <td>I<sub>2</sub></td>
+      <td colspan="3">1.3In</td>
+      <td>紧接上述试验</td>
+      <td>t＜1h（In≤63A）<br/>t＜2h（In＞63A）</td>
+      <td>脱扣</td>
+    </tr>
+    <tr>
+      <td rowspan="2">磁脱扣</td>
+      <td>I<sub>4</sub></td>
+      <td>3.2In</td>
+      <td>6.4In</td>
+      <td>9.6In</td>
+      <td>冷态</td>
+      <td>t≤0.2s</td>
+      <td>不脱扣</td>
+    </tr>
+    <tr>
+      <td>I<sub>5</sub></td>
+      <td>4.8In</td>
+      <td>9.6In</td>
+      <td>14.4In</td>
+      <td>冷态</td>
+      <td>t＜0.2s</td>
+      <td>脱扣</td>
+    </tr>
+    <tr>
+      <td colspan="8">说明：表中热脱扣动作特性是在30℃～35℃温度下，按表5对应的导线连接，得出的预期结果；产品出厂时按此条件调试，使用条件与此不同时，额定电流应进行相应补偿。</td>
+    </tr>
+  </tbody>
+</table>
